@@ -1,7 +1,6 @@
 jobs:
     build:
-stages:
-  - name: Storage-Checker
+    name: Storage-Checker
     steps:
       - name: Storage-Checker_script
         image: ghcr.io/sushrut1101/docker:arch
